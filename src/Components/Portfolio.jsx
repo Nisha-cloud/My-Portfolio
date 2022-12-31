@@ -1,46 +1,41 @@
 import React from "react";
-import plantShop from "../assets/portfolio/Final-logo-plant-shop.png";
+// import plantShop from "../assets/portfolio/Final-logo-plant-shop.png";
 import inotebook from "../assets/portfolio/portfolio latpop and mobile.png";
-import navbar from "../assets/portfolio/navbarresp.png";
-import GamingProject from "../assets/portfolio/gamingProject.png";
+// import navbar from "../assets/portfolio/navbarresp.png";
+// import GamingProject from "../assets/portfolio/gamingProject.png";
 import textUtils from "../assets/portfolio/TextUtils-latpop-and-mobile.png";
+import bookstore from "../assets/portfolio/nisha-bookstore-portfolio.png"
+import art from "../assets/portfolio/nisha-portfolio-art.png"
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: plantShop,
-      live:"https://aniket-plant-shop.netlify.app/",
-      glink:"https://github.com/createaniket/Plant-Shop-Frontend"
+      src: bookstore,
+      live:"https://nisha-bookstore.netlify.app/",
+      glink:"https://github.com/Nisha-cloud/Bookstore-Frontend"
     },
     {
       id: 2,
-      src: GamingProject,
-      live:"https://aniket-gaming-site.netlify.app/",
-      glink:"https://github.com/createaniket/gaming-site-project"
+      src: art,
+      live:"https://nisha-art-gallery.netlify.app/",
+      glink:"https://github.com/Nisha-cloud/The-Art-Gallery"
 
 
     },
     {
       id: 3,
-      src: navbar,
-      live:"https://astonishing-basbousa-7fca4a.netlify.app/",
-      glink:"https://github.com/createaniket/Responsive-Navbar-React"
+      src: inotebook,
+      live:"https://nisha-dev-inotebook.netlify.app/",
+      glink:"https://github.com/Nisha-cloud/iNotebook-frontend"
 
     },
     {
       id: 4,
       src: textUtils,
-      live:"https://aniket-text-utilities.netlify.app/",
-      glink:"https://github.com/createaniket/TextUtils"
-
-    },
-    {
-      id: 5,
-      src: inotebook,
-      live:"https://aniket-inotebook.netlify.app/",
-      glink:"https://github.com/createaniket/INoteBook"
+      live:"https://nisha-dev-textutils.netlify.app/",
+      glink:"https://github.com/Nisha-cloud/Textutils"
 
     }
   ];
@@ -61,7 +56,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src , live , glink}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
@@ -74,7 +69,7 @@ const Portfolio = () => {
                 <a href={live} rel="noreferrer" target="_blank">
 
 
-                <button className=" px-6 py-3 m-2 duration-200 hover:scale-105" >
+                <button className=" px-6 py-3 m-2 duration-200 hover:scale-110 hover:pb-3" >
                  <strong>
                    See Live
                   </strong>
@@ -86,7 +81,7 @@ const Portfolio = () => {
                 <a href={glink} rel="noreferrer" target="_blank">
 
 
-                  <button className=" px-6 py-3 m-2 duration-200 hover:scale-105" >
+                  <button className=" px-6 py-3 m-2 duration-200 hover:scale-110 hover:pb-3" >
                     <strong>
 
                     Code

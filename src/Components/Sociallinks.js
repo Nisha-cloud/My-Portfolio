@@ -15,7 +15,7 @@ const Sociallinks = () => {
                 Linkedin <FaLinkedin size={30}/>
                 </>
             ),
-            href:"https://www.linkedin.com/in/aniket-pratap-singh-28669b193",
+            href:"https://www.linkedin.com/in/nisha-raitani-9b676b1a5/",
         style:"rounded-tr-md",
 
     },
@@ -27,7 +27,7 @@ const Sociallinks = () => {
             Github <FaGithub size={30}/>
             </>
         ),
-        href:"https://github.com/createaniket"
+        href:"https://github.com/Nisha-cloud"
 }
 ,
     {
@@ -38,7 +38,7 @@ const Sociallinks = () => {
             Mail <HiOutlineMail size={30}/>
             </>
         ),
-        href:"mailto:aniketpratapsingh7310@gmail.com"
+        href:"mailto:nisharaitani19@gmail.com"
 }
 
 ,
