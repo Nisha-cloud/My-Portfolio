@@ -50,7 +50,7 @@ const Sociallinks = () => {
             Resume <BsFillPersonLinesFill size={30}/>
             </>
         ),
-        href:"/Aniket Pratap Singh Resume.docx (2).docx.pdf",
+        href:"/NISHA RAITANI Resume 2023.pdf",
         style:"rounded-br-md",
         download:true
 }
