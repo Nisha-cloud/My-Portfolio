@@ -6,6 +6,7 @@ import inotebook from "../assets/portfolio/portfolio latpop and mobile.png";
 import textUtils from "../assets/portfolio/TextUtils-latpop-and-mobile.png";
 import bookstore from "../assets/portfolio/nisha-bookstore-portfolio.png"
 import art from "../assets/portfolio/nisha-portfolio-art.png"
+import dental from "../assets/portfolio/Dental image.png"
 // import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
@@ -18,6 +19,14 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: dental,
+      live:"https://dental-care-hygiene.netlify.app/",
+      glink:"https://github.com/Nisha-cloud/Dentist-Clinic"
+
+
+    },
+    {
+      id: 3,
       src: art,
       live:"https://nisha-art-gallery.netlify.app/",
       glink:"https://github.com/Nisha-cloud/The-Art-Gallery"
@@ -25,14 +34,14 @@ const Portfolio = () => {
 
     },
     {
-      id: 3,
+      id: 4,
       src: inotebook,
       live:"https://nisha-dev-inotebook.netlify.app/",
       glink:"https://github.com/Nisha-cloud/iNotebook-frontend"
 
     },
     {
-      id: 4,
+      id: 5,
       src: textUtils,
       live:"https://nisha-dev-textutils.netlify.app/",
       glink:"https://github.com/Nisha-cloud/Textutils"
@@ -53,7 +62,7 @@ const Portfolio = () => {
           <p className="text-4xl text-pink-600 font-bold inline border-b-4 border-gray-500">
             Works
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out some of my works right here</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
