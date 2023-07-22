@@ -27,7 +27,7 @@ const Home = () => {
                       </p>
 
                       <div>
-                        <a href="NISHA RAITANI Resume 2023.pdf" target='_blank'>
+                        {/* <a href="NISHA RAITANI Resume 2023.pdf" target='_blank'> */}
                         <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md justify-center bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer mt-3' >
                       Download Resume
                       <span className='px-2'>
@@ -37,7 +37,7 @@ const Home = () => {
                     
                     </button>
 
-                        </a>
+                        
 
                    
                       </div>
